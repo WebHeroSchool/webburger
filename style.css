@@ -1,6 +1,6 @@
 .menu {
     text-align: right;
-    display: none;
+    display:block;
 }
 
 .menu__links-item {
@@ -73,33 +73,33 @@
       color: #ffffff;
     }
   }
-  @media (min-width:320px){
-      .menu__links-item{
-          -webkit-text-size-adjust: 10px; 
-      }
+  @media (max-width:320px){
+     .text{
+       font-size: 20px;
+     }
   }
-  @media (min-width:481px){
-    .menu__links-item{
-        -webkit-text-size-adjust: 20px; 
-    } 
+  @media (max-width:481px){
+    .text{
+      font-size: 30px;
+    }
   }
-  @media (min-width:641px){
-    .menu__links-item{
-        -webkit-text-size-adjust: 30px; 
+  @media (max-width:641px){
+    .text{
+      font-size: 40px;
     }  
   }
-  @media (min-width:961px){
-    .menu__links-item{
-        -webkit-text-size-adjust: 40px; 
-    }    
+  @media (max-width:961px){
+     .text{
+       font-size: 50px;
+     }   
   }
-  @media (min-width:1025px){
-    .menu__links-item{
-        -webkit-text-size-adjust: 50px; 
-    }      
+  @media (max-width:1025px){
+    .text{
+      font-size: 60px;
+    }     
   }
-  @media (min-width:1281px){
-    .menu__links-item{
-        -webkit-text-size-adjust: 60px; 
-    }    
+  @media (max-width:1281px){
+     .text{
+       font-size: 70px;
+     }   
   }
