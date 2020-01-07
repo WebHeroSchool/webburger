@@ -73,33 +73,34 @@
       color: #ffffff;
     }
   }
-  @media (max-width:320px){
+  @media screen and (max-width:3 20px){
      .text{
        font-size: 20px;
      }
   }
-  @media (max-width:481px){
+  @media screen and (max-width: 481px){
     .text{
       font-size: 30px;
     }
   }
-  @media (max-width:641px){
+  @media screen and (max-width: 641px){
     .text{
       font-size: 40px;
     }  
   }
-  @media (max-width:961px){
+  @media screen and (max-width:961px){
      .text{
        font-size: 50px;
      }   
   }
-  @media (max-width:1025px){
+  @media screen and (max-width:1025px){
     .text{
       font-size: 60px;
     }     
   }
-  @media (max-width:1281px){
+  @media screen and (max-width:1281px){
      .text{
        font-size: 70px;
-     }   
+     } 
+       
   }
