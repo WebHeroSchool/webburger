@@ -19,7 +19,7 @@
 }
 
 .menu__icon{
-    display: block;
+    display:none;
     width: 45px;
     height: 35px;
     position: relative;
@@ -81,6 +81,7 @@
       @media screen and (max-width: 999px) {
         .menu__icon{
           display: block;
+
         }
         .menu__links{
           display: none;
