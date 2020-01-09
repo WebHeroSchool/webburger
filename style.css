@@ -1,10 +1,10 @@
 .menu {
     text-align: right;
-    display:block;
+    display: none;
 }
 
 .menu__links-item {
-    display: inline-block;
+    display: none;
     color: #333333;
     font-family: Arial;
     font-size: 14px;
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 .menu__icon span {
-    display: block;
+    display: none;
     position: absolute;
     height: 9px;
     width: 100%;
@@ -49,14 +49,10 @@
 .menu__icon span:nth-child(4) {
     top: 26px;
 }
-@media screen and (max-width: 999px) {
-    .menu__icon{
-      display: inline-block;
-    }
-    
+
     .menu__links {
       position: fixed;
-      display: block;
+      display: none;
       top: 0;
       right: 0;
       left: 0;
@@ -67,7 +63,7 @@
     }
     
     .menu__links-item {
-      display: block;
+      display: none;
       padding: 10px 0;
       text-align: center;
       color: #ffffff;
@@ -81,6 +77,11 @@
         .text{
           font-size: 60px;
         }     
+      }
+      @media screen and (max-width: 999px) {
+        .menu__icon{
+          display: inline-block;
+        }
       }
       @media screen and (max-width:961px){
         .text{
@@ -98,7 +99,7 @@
         }
       }
   
-  @media screen and (max-width:320px){
+      @media screen and (max-width:320px){
      .text{
        font-size: 20px;
      }
